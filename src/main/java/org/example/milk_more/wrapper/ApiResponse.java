@@ -1,28 +1,28 @@
 package org.example.milk_more.wrapper;
 
 public class ApiResponse<T> {
-    private String message;
+    private String name;
     private T data;
 
     public ApiResponse(){
 
     }
 
-    public ApiResponse(String message, T data) {
-        this.message = message;
+    public ApiResponse(String name, T data) {
+        this.name = name;
         this.data = data;
     }
 
-    public String getMessage() {
-        return message;
+    public String getname() {
+        return name;
     }
 
     public T getData() {
         return data;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
+    public void setname(String name) {
+        this.name = name;
     }
 
     public void setData(T data) {

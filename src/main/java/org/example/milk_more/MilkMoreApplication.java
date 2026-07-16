@@ -8,6 +8,8 @@ public class MilkMoreApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(MilkMoreApplication.class, args);
+        
+       
     }
 
 }

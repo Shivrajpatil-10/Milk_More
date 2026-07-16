@@ -1,2 +1,10 @@
 ###
-GET http://localhost:8081/milkmore/test/health-check
+POST http://localhost:8080/milkmore/save
+Content-Type:json
+
+{
+  "name": "shivraj patil",
+  "phone": 9020713483,
+  "type": "cow",
+  "quantity": 5
+}
